@@ -52,14 +52,49 @@ do {
     console.log(i);
 } while (i<50); 
 
-for(var i = 0; i < 10; i++) {
+for(var i = 0; i < 2; i++) {
     if (i==2)
         break;
     console.log(i);
 }
 
-for(var i = 0; i < 10; i++) {
+for(var i = 0; i < 2; i++) {
     if (i%2==0)
         continue; // пропускает один(следующий) шаг цикла
     console.log(i);
 }
+
+//alert("hello"); сообщение
+//confirm("Hey&"); тоже сообщение но с кнопками ок и отмена, и можно ввернуть true false
+
+//var d = confirm("Hey&");
+//console.log(d);
+
+//prompt("ow old are you&", 20); сообщение можно вернуть вводимое число или строку
+
+/*function info(){
+    console.log("Hello!");
+}
+info();
+
+function summ(a,b){
+    res = Number(a) + Number(b);
+    console.log("Summ "+res);
+}
+
+var a = prompt("Input first number");
+var b = prompt("Input second number");
+summ(a,b); */
+
+
+/*function onClickbut(a,b){
+    var a = prompt("Input first number");
+    var b = prompt("Input second number");
+    res = Number(a) + Number(b);
+    alert("Summ "+res);
+}*/
+
+var text = document.getElementById('text');
+
+console.log(text.id);
+//text.style.color = red;
