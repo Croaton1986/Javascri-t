@@ -97,4 +97,5 @@ summ(a,b); */
 var text = document.getElementById('text');
 
 console.log(text.id);
-//text.style.color = red;
+text.style.color = "red";
+text.style.backgroundColor = "red";
